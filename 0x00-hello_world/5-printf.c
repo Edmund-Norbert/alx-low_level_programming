@@ -23,29 +23,20 @@ int main(void)
 }
 
 root@29cb72c3ab23:/Norbert/alx-low_level_programming/0x00-hello_world# cat 5-printf.c
-
 #include <stdio.h>
-
-
 
 /**
  *
  *  * main - Entry point
  *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
 {
-
 	        printf("with proper grammar, but the outcome is a piece of art,\n");
 
-		        return (0);
-
+	        return (0);
 }
-
 
