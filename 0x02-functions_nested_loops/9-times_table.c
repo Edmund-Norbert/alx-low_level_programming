@@ -4,9 +4,8 @@
 * times_table - prints the 9 times table, starting with 0
 *
 *
-* Return: Always 0
+* Return: no value
 */
-int main(void)
 void times_table(void)
 {
 int number = 0;
