@@ -1,13 +1,25 @@
-#include "main.h"
 #include <stdio.h>
-int main() 
+
+/**
+* times_table - prints the 9 times table, starting with 0
+*
+*
+* Return: no return value
+*/
+void times_table(void)
 {
-int n, i;
-printf("Enter an integer: ");
-scanf("%d", &n);
-for (i = 1; i <= 10; ++i) 
-{
-printf("%d * %d = %d \n", n, i, n * i);
+  int number = 0;
+  int multiplier = 0;
+  
+  for (multiplier = 0; multiplier < 10; multiplier++)
+  {
+    for (number = 0; number < 10; number++)
+      if (number > 0)
+      {
+        printf(", ");
+      }
+    printf("%2d", number * multiplier);
+  }
+  printf("\n");
 }
-return (0);
 }
