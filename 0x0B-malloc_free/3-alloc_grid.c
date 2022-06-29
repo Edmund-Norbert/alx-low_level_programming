@@ -27,7 +27,7 @@ for (i = 0; i < height; i++)
 {
 gridout[i] = malloc(width * sizeof(int));
 if (gridout[i] == NULL)
-                {
+{
 for (i--; i >= 0; i--)
 free(gridout[i]);
 free(gridout);
@@ -40,4 +40,5 @@ for (j = 0; j < width; j++)
 gridout[i][j] = 0;
 
 return (gridout);
+
 }
