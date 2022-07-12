@@ -32,7 +32,6 @@ if (isn1 == 1 || isn2 == 1)
 printf("0\n");
 exit(0);
 }
-}
 
 /**
 * _initialize_array - set memery to zero in a new array
