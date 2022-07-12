@@ -25,7 +25,7 @@ if (argc != 2)
 printf("Error\n");
 exit(1);
 }
-  
+
 nbytes = atoi(argv[1]);
 if (nbytes < 0)
 {
