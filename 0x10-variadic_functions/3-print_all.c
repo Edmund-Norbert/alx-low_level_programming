@@ -4,7 +4,7 @@
 * print_char - print a char
 *
 * @arg: a list of argument pointing
-*      to the character to be printed
+* to the character to be printed
 *
 * Return: nothing
 */
@@ -108,13 +108,13 @@ while (j < 4 && (format[i] != *(funcs[j].symbol)))
 j++;
 if (j < 4)
 {
-  printf("%s", separator);
+printf("%s", separator);
 funcs[j].print_func(ap);
 separator = ", ";
 }
 i++;
 }
-  printf("\n");
+printf("\n");
 
 va_end(ap);
 }
