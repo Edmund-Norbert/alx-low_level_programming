@@ -108,13 +108,13 @@ while (j < 4 && (format[i] != *(funcs[j].symbol)))
 j++;
 if (j < 4)
 {
-printf("%s", separator);
+  printf("%s", separator);
 funcs[j].print_func(ap);
 separator = ", ";
 }
 i++;
 }
-printf("\n");
+  printf("\n");
 
 va_end(ap);
 }
