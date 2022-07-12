@@ -1,4 +1,3 @@
-t 0-print_name.c
 /**
 * print_name - function to print name
 *
@@ -10,6 +9,6 @@ t 0-print_name.c
 
 void print_name(char *name, void (*f)(char *))
 {
-        if (name && f)
-                f(name);
+if (name && f)
+f(name);
 }
